@@ -2,6 +2,8 @@
 
 let divAlert2 = document.getElementById("divAlert2");
 
+//--------------------Ciclo FOR---------------------------------------
+
 // Define el número de filas que quieres imprimir
 const numRows = 5;
 let resultado = '';
@@ -12,7 +14,7 @@ for (i; i <= numRows; i++) {
   let row = '';
 
   // Crea la cadena de asteriscos para cada fila
-  for (j ; j <= i; j++) {
+  for (j; j <= i; j++) {
     row += '*';
   }
 
@@ -20,19 +22,25 @@ for (i; i <= numRows; i++) {
   console.log(resultado += row );
 }
 
+console.log('\n') //---> asi podemos hacer salto de linea en JS 
 
+//--------------------Ciclo WHILE---------------------------------------
 
-// console.log("**************WHILE***************");
-// let rows = 5;
-// let result = '';
-// let i = 1
-// //while(i <= rows){
-//     let rows = ' ';
-//     let j = 1;
-//     while(j <= i){
-//         rows += '*';
-//         j++;
-//     }
-// }
+console.log("**************WHILE***************");
+console.log('\n')
+let rows = 5;
+let result = '';
+let m = 1;
+let n = 1;
+ while(m <= rows){
+     let rows = ' ';
+     let n = 1;
+    while(n <= m){
+        rows += '*';
+        n++;
+    }
+    console.log(result += rows);
+    m++
+}
 
 
