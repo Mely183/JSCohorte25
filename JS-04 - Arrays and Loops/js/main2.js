@@ -27,14 +27,13 @@ console.log('\n') //---> asi podemos hacer salto de linea en JS
 //--------------------Ciclo WHILE---------------------------------------
 
 console.log("**************WHILE***************");
-console.log('\n')
+console.log('\n');
 let rows = 5;
 let result = '';
 let m = 1;
 let n = 1;
  while(m <= rows){
-     let rows = ' ';
-     let n = 1;
+     let rows = '';
     while(n <= m){
         rows += '*';
         n++;
