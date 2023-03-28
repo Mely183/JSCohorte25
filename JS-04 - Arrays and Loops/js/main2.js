@@ -5,17 +5,34 @@ let divAlert2 = document.getElementById("divAlert2");
 // Define el número de filas que quieres imprimir
 const numRows = 5;
 let resultado = '';
-
+let i = 1
+let j = 1
 // Itera sobre cada fila e imprime el patrón
-for (let i = 1; i <= numRows; i++) {
+for (i; i <= numRows; i++) {
   let row = '';
 
   // Crea la cadena de asteriscos para cada fila
-  for (let j = 1; j <= i; j++) {
+  for (j ; j <= i; j++) {
     row += '*';
   }
 
   // Imprime la fila
   console.log(resultado += row );
 }
+
+
+
+// console.log("**************WHILE***************");
+// let rows = 5;
+// let result = '';
+// let i = 1
+// //while(i <= rows){
+//     let rows = ' ';
+//     let j = 1;
+//     while(j <= i){
+//         rows += '*';
+//         j++;
+//     }
+// }
+
 
